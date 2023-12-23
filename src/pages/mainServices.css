@@ -1,0 +1,41 @@
+.main-services {
+  background: linear-gradient(
+      180deg,
+      #2f2b31 0%,
+      #2f2b31 0.01%,
+      #363138 14.58%,
+      rgba(77, 61, 83, 0.8) 41.67%,
+      #3d3241 58.33%,
+      #2b2b2b 84.37%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(42, 15, 52, 0) 0%,
+      #917899 26.9%,
+      rgba(77, 61, 83, 0.8) 41.67%,
+      #3d3241 58.33%,
+      #2b2b2b 84.37%
+    );
+}
+.main-our-services {
+  background-image: url(../images/Group\ 279.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  /* height: 690px; */
+  text-align: center;
+}
+.main-our-services > h1 {
+  color: var(--white, var(--White, #fbfbfb));
+  padding-top: 308px;
+  padding-bottom: 284px;
+  /* H1 */
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px; /* 145.833% */
+}
+.carousel-item {
+  width: 20% !important;
+}

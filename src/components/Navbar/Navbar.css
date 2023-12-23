@@ -1,0 +1,71 @@
+@media (min-width: 1200px) {
+  .navbar {
+    background-color: rgba(251, 251, 251, 1);
+  }
+  .navbar > .container {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .logo {
+    margin-left: 151px;
+  }
+  .navbar-toggler {
+    border: none !important;
+    /* color: white !important; */
+  }
+  .navbar-collapse {
+    margin: 0 !important;
+  }
+  .navbar-toggler-icon {
+    background-color: #c499ff;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .navbar {
+    /* padding-left: 35px; */
+    /* padding-right: 35px; */
+    /* padding-left: 220px !important; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .nav-link {
+    color: var(--Black-Text, #2b2b2b);
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+  }
+  .nav-link:hover {
+    color: rgba(55, 18, 163, 1) !important;
+    /* text-decoration: underline #ffb300; */
+    transition-delay: left 0.1s;
+    /* border-bottom: 1px #ffb300; */
+  }
+  .nav-link:focus {
+    color: #3712a3 !important;
+    text-decoration: overline 3px #3712a3;
+  }
+  .nav-link:visited:after {
+    color: #3712a3;
+  }
+  .collapse {
+    margin-left: 31px;
+  }
+  .navbar.colorChange {
+    opacity: 0.9;
+    background-color: #5d20d5;
+
+    left: auto;
+    right: auto;
+  }
+}

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+p {
+  color: var(--Black-Text, #2b2b2b);
+  /* Body Mob */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.blog-header {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px; /* 145.833% */
+  margin-bottom: 90px;
+}
+.blog-text {
+  color: var(--Black-Text, #2b2b2b);
+
+  /* Body */
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.blog {
+  background-image: url(../images/Group\ 289.png);
+  background-repeat: no-repeat;
+}
+.blog-section {
+  margin-left: 151px;
+  padding-top: 150px;
+  margin-right: 151px;
+  margin-bottom: 90px;
+}
+.blog-block1 {
+  width: 31%;
+  margin-bottom: 52px;
+}
+.blog-block1 > button {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: purple;
+  background-color: white;
+  border: none;
+}
+.blog-block1 > div > h1 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 125% */
+}
