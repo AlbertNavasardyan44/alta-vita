@@ -36,7 +36,7 @@ const Menu = () => {
         <div>
             <Navbar expand="lg" className='navbar  navbar-expand-lg navbar-light navbar-services' >
                 <Container>
-                    <Navbar.Brand className="logo" to="/Home" href="/Home">
+                    <Navbar.Brand className="logo" to="/" href="/">
 
                         <img src={logo} />
 
@@ -44,12 +44,12 @@ const Menu = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="">
-                            <Nav.Link className="nav-link" href="/Home" ></Nav.Link>
-                            <Nav.Link className="nav-link "   href="/Aboutus" onClick={scrollToTop} >ABOUT US</Nav.Link>
-                            <Nav.Link className="nav-link" href="/WhatWeDo" onClick={scrollToTop}>WHAT WE DO</Nav.Link>
-                            <Nav.Link className="nav-link" href="/Services" onClick={scrollToTop}>SERVICES</Nav.Link>
-                            <Nav.Link className="nav-link" href="/Blog" onClick={scrollToTop}>BLOG</Nav.Link>
-                            <Nav.Link className="nav-link" href="/Call" onClick={scrollToTop}>CONTACTS</Nav.Link>
+                            <Nav.Link className="nav-link" href="/" ></Nav.Link>
+                            <Nav.Link className="nav-link " href="/aboutus" onClick={scrollToTop} >ABOUT US</Nav.Link>
+                            <Nav.Link className="nav-link" href="/whatwedo" onClick={scrollToTop}>WHAT WE DO</Nav.Link>
+                            <Nav.Link className="nav-link" href="/services" onClick={scrollToTop}>SERVICES</Nav.Link>
+                            <Nav.Link className="nav-link" href="/blog" onClick={scrollToTop}>BLOG</Nav.Link>
+                            <Nav.Link className="nav-link" href="/call" onClick={scrollToTop}>CONTACTS</Nav.Link>
                             {/* <Nav.Link className="nav-link" href="/Contact" onClick={scrollToTop}>LETS TALK</Nav.Link> */}
 
 

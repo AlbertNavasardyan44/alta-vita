@@ -25,7 +25,7 @@ function Blog() {
                         <h1>On the Blog</h1>
                     </div>
 
-                    <div className='d-flex justify-content-between'>
+                    <div className='blogs'>
                         <div className='blog-block1'>
                             <div>
                                 <img src={seo} width={'100%'} height={'246'} alt="..." />
@@ -63,8 +63,8 @@ function Blog() {
 
                         </div>
 
-                    </div>
-                    <div className='d-flex justify-content-between'>
+                    {/* </div> */}
+                    {/* <div className='blogs'> */}
                         <div className='blog-block1'>
                             <div>
                                 <img src={seo} width={'100%'} height={'246'} alt="..." />
@@ -102,8 +102,8 @@ function Blog() {
 
                         </div>
 
-                    </div>
-                    <div className='d-flex justify-content-between'>
+                    {/* </div> */}
+                    {/* <div className='blogs'> */}
                         <div className='blog-block1'>
                             <div>
                                 <img src={seo} width={'100%'} height={'246'} alt="..." />
@@ -142,8 +142,8 @@ function Blog() {
 
                         </div>
 
-                    </div>
-                    <div className='d-flex justify-content-between'>
+                    {/* </div> */}
+                    {/* <div className='blogs'> */}
                         <div className='blog-block1'>
                             <div>
                                 <img src={seo} width={'100%'} height={'246'} alt="..." />

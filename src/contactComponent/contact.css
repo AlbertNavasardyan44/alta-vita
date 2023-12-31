@@ -1,11 +1,15 @@
+.stay-in-touch {
+  padding-top: 0px !important;
+}
 @media (max-width: 576px) {
   .footer-contact {
     padding-bottom: 20px;
     padding-top: 20px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #eeeeee;
-    background-image: none;
+    background-image: url(../images/footer.png);
+    background-size: cover;
     min-height: 60px;
   }
   .footer-contact-box {
@@ -18,8 +22,8 @@
     border: none;
     background: none !important;
     color: white !important;
-    font-family: Avenir LT Std;
-    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
     font-style: normal;
     /* font-weight: 400; */
     line-height: normal;
@@ -38,15 +42,32 @@
     display: flex;
     justify-content: center;
   }
+  .list-group-item {
+    margin-bottom: 15px;
+    padding: 0 !important;
+  }
+  .list-group-item {
+    background: none !important;
+    text-align: center;
+    border: none;
+  }
+  .logofooter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .created {
+    text-align: center;
+  }
 }
-@media ((min-width: 576px) and (max-width:768px)) {
+@media ((min-width: 577px) and (max-width:768px)) {
   .footer-contact {
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 12px;
     padding-right: 12px;
-    background-color: #eeeeee;
-    background-image: none;
+    background-image: url(../images/footer.png);
+    background-size: cover;
     min-height: 60px;
   }
   .footer-contact-box {
@@ -59,7 +80,7 @@
     border: none;
     background: none !important;
     color: white !important;
-    font-family: Avenir LT Std;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 400; */
@@ -79,72 +100,42 @@
     display: flex;
     justify-content: center;
   }
+  .list-group-item {
+    background: none !important;
+    text-align: center;
+    border: none;
+  }
+  .logofooter {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+  }
 }
-@media ((min-width: 769px) and (max-width:992px)) {
+@media ((min-width: 769px) and (max-width:1200px)) {
   .footer-contact {
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 12px;
-    padding-right: 12px;
-    background-color: #eeeeee;
-    background-image: none;
+    padding-bottom: 50px;
+    padding-top:50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url(../images/footer.png);
+    background-size: cover;
     min-height: 60px;
   }
   .footer-contact-box {
     /* width: 50%; */
-    margin-top: 20px;
-  }
-  .list-group-item-contact {
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    background: none !important;
-    color: white !important;
-    font-family: Avenir LT Std;
-    font-size: 16px;
-    font-style: normal;
-    /* font-weight: 400; */
-    line-height: normal;
-  }
-  .copyright {
-    background-color: rgba(255, 255, 255, 0);
-    background-image: none;
-    min-height: 80px;
-    border-style: solid;
-    border-width: 0px;
-    border-top-width: 1px;
-    border-top-color: #d7d7d7;
-    padding-top: 35px;
-  }
-  .social {
-    display: flex;
-    justify-content: center;
-  }
-}
-@media ((min-width: 993px) and (max-width:1200px)) {
-  .adresses {
     display: flex;
     justify-content: space-between;
-  }
-  .footer-contact {
-    padding-bottom: 20px;
-    padding-top: 50px;
-    padding-left: 74px;
-    padding-right: 74px;
-    background-color: #eeeeee;
-    background-image: none;
-    min-height: 60px;
-  }
-  .footer-contact-box {
-    width: 50%;
+
+    /* margin-top: 20px; */
   }
   .list-group-item-contact {
-    /* text-align: center; */
+    text-align: center;
     text-decoration: none;
     border: none;
     background: none !important;
     color: white !important;
-    font-family: Avenir LT Std;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 400; */
@@ -160,15 +151,22 @@
     border-top-color: #d7d7d7;
     padding-top: 35px;
   }
-  .footer-menu {
-    display: flex;
-    justify-content: end;
-  }
   .social {
     display: flex;
-    justify-content: end;
+    justify-content: center;
+  }
+  .list-group-item {
+    background: none !important;
+    text-align: center;
+    border: none;
+  }
+  .logofooter {
+    /* margin: auto; */
+    text-align: center;
+    margin-bottom: 15px;
   }
 }
+
 @media (min-width: 1200px) {
   .adresses {
     display: flex;
@@ -185,6 +183,11 @@
   }
   .footer-contact-box {
   }
+  .list-group-item {
+    background: none !important;
+
+    border: none;
+  }
   .list-group-item-contact {
     /* text-align: center; */
     text-decoration: none;
@@ -193,7 +196,7 @@
     color: var(--white, var(--White, #fbfbfb));
 
     /* footer */
-    font-family: Poppins;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -216,7 +219,7 @@
     /* justify-content: end; */
     color: var(--white, var(--White, #fbfbfb));
     /* footer */
-    font-family: Poppins;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -228,6 +231,7 @@
     display: flex;
     justify-content: end;
   }
+  .logofooter {
+    display: block;
+  }
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");

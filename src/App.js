@@ -2,6 +2,8 @@ import {
   BrowserRouter as Router, Routes
   , Route
 } from "react-router-dom";
+// import ComingSoon from 'react-coming-soon'
+
 import React, { useState } from "react";
 import Aboutus from "./pages/AboutUs.js"
 import Home from "./pages/Home.js"
@@ -31,30 +33,9 @@ function App() {
         <Route path='/services1' element={<Services />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/call' element={<Call />} />
-        <Route  path="/home" element={<Home />}/>
+        <Route  path="/" element={<Home />}/>
 
-        {/* <Route path='/Blog' element={<Blog />} />
-        <Route path='/ContentServices' element={<ContentServices />} />
-        <Route path='/SeoServices' element={<SeoServices />} />
-        <Route path='/Blog' element={<Blog />} />
-        <Route path='/Contact' element={<Contact />} />
-        <Route path='/FAQ' element={<FAQ />} />
-        <Route path='/blog-posts' element={<Blogposts />} />
-        <Route path='/brand-jurnalism' element={<Brandjurnalism />} />
-        <Route path='/technical-writing' element={<Technical />} />
-        <Route path='/email-writing' element={<Email />} />
-        <Route path='/script-writing' element={<Script />} />
-        <Route path='/copy-writing' element={<Copy />} />
-        <Route path='/general-writing' element={<General />} />
-        <Route path='/seo-audit' element={<Seo />} />
-        <Route path='/seo-consulting' element={<SeoCons />} />
-        <Route path='/on-page-seo' element={<Onpage />} />
-        <Route path='/off-page-seo' element={<Offpage />} />
-        <Route path='/international-seo' element={<InterSeo />} />
-        <Route path='/e-comerce-seo' element={<Ecomerce />} />
-        <Route path='/local-seo' element={<Local />} />
-        <Route path='/the-truth-about-content-and-seo-in-armenia' element={<TheTruth />} />
-        <Route path='/seo-in-blogs/blog-post' element={<TheImportance />} /> */}
+       
 
 
 
@@ -64,6 +45,7 @@ function App() {
         </Route>
       </Routes>
     </Router>
+    
     // </div>
   );
 }

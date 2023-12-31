@@ -24,22 +24,22 @@ function Whatwedo() {
                     <h1>What We Do?</h1>
 
 
-                    <p>We build projects that change <br></br> lifestyles, ways of thinking, and<br></br> give the world a new vision.</p>
+                    <p>We build projects that change lifestyles, ways of thinking, and<br></br> give the world a new vision.</p>
                 </div>
 
             </div>
 
 
 
-            <div className='buisness-llc d-flex'>
+            <div className='buisness-llc '>
                 <div className='buisness-img'>
                     <div>
                         <img src={buisness1} width={''} height={''} className="rounded float-center mb-5 " alt="..." />
 
                     </div>
-                    <div className='d-flex justify-content-between'>
+                    <div className='d-flex justify-content-between carousel-img'>
                         <div>
-                            <img src={buisness2} width={''} height={''} className="rounded float-center me-5" alt="..." />
+                            <img src={buisness2} width={''} height={''} className="rounded float-center " alt="..." />
 
                         </div>
 
@@ -53,22 +53,22 @@ function Whatwedo() {
                     <h1>Business LLC 1</h1>
                     <ul >
                         <li key={1}>{listItems}</li>
-                       
+
 
                     </ul>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce wisi. Integer lacinia. Aliquam in lorem sit amet leo accumsan lacinia. Quisque tincidunt scelerisque libero. Excepteur sint occaecat cupidatat non </p>
                 </div>
             </div>
 
-            <div className='buisness-llc d-flex flex-row-reverse'>
+            <div className='buisness-llc '>
                 <div className='buisness-img'>
                     <div>
                         <img src={buisness1} width={''} height={''} className="rounded float-center mb-5 " alt="..." />
 
                     </div>
-                    <div className='d-flex justify-content-end'>
+                    <div className='d-flex justify-content-between carousel-img'>
                         <div>
-                            <img src={buisness2} width={''} height={''} className="rounded float-center me-5" alt="..." />
+                            <img src={buisness2} width={''} height={''} className="rounded float-center " alt="..." />
 
                         </div>
 
@@ -82,7 +82,7 @@ function Whatwedo() {
                     <h1>Business LLC 2</h1>
                     <ul >
                         <li key={2}>{listItems}</li>
-                       
+
 
                     </ul>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce wisi. Integer lacinia. Aliquam in lorem sit amet leo accumsan lacinia. Quisque tincidunt scelerisque libero. Excepteur sint occaecat cupidatat non </p>
@@ -96,12 +96,12 @@ function Whatwedo() {
             <div className='buisness-llc d-flex'>
                 <div className='buisness-img'>
                     <div>
-                        <img src={buisness1} width={''} height={''} className="rounded float-center mb-5 me-5" alt="..." />
+                        <img src={buisness1} width={''} height={''} className="rounded float-center mb-5 " alt="..." />
 
                     </div>
-                    <div className='d-flex '>
+                    <div className='d-flex  justify-content-between carousel-img'>
                         <div>
-                            <img src={buisness2} width={''} height={''} className="rounded float-center me-5" alt="..." />
+                            <img src={buisness2} width={''} height={''} className="rounded float-center " alt="..." />
 
                         </div>
 
@@ -115,22 +115,22 @@ function Whatwedo() {
                     <h1>Business LLC 1</h1>
                     <ul >
                         <li key={3}>{listItems}</li>
-                       
+
 
                     </ul>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce wisi. Integer lacinia. Aliquam in lorem sit amet leo accumsan lacinia. Quisque tincidunt scelerisque libero. Excepteur sint occaecat cupidatat non </p>
                 </div>
             </div>
 
-            <div className='buisness-llc d-flex flex-row-reverse last'>
+            <div className='buisness-llc   last'>
                 <div className='buisness-img '>
                     <div>
                         <img src={buisness1} width={''} height={''} className="rounded float-center mb-5 " alt="..." />
 
                     </div>
-                    <div className='d-flex justify-content-between'>
+                    <div className=' d-flex justify-content-between carousel-img'>
                         <div>
-                            <img src={buisness2} width={''} height={''} className="rounded float-center me-5" alt="..." />
+                            <img src={buisness2} width={''} height={''} className="rounded float-center " alt="..." />
 
                         </div>
 
@@ -144,7 +144,7 @@ function Whatwedo() {
                     <h1>Business LLC 2</h1>
                     <ul >
                         <li key={4}>{listItems}</li>
-                       
+
 
                     </ul>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce wisi. Integer lacinia. Aliquam in lorem sit amet leo accumsan lacinia. Quisque tincidunt scelerisque libero. Excepteur sint occaecat cupidatat non </p>

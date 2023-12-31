@@ -1,103 +1,567 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@media (max-width: 576px) {
+  .header {
+    background-image: url(../images/aboutHeader.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .header-bg {
+    background-image: url(../images/Group\ 290.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .header-content {
+    display: flex;
 
-.header {
-  background-image: url(../images/aboutHeader.png);
-  background-position: center;
-  background-size: cover;
-  width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  .header-content > div {
+    margin: auto;
+  }
+  .header-content > div > img {
+    margin: auto;
+    width: 250px !important;
+    height: 50px !important;
+  }
+  .header-text {
+    color: "M";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; /* 138.889% */
+    border-left: 0px solid white;
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+  .our-history {
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .our-history > div > img {
+    width: 100%;
+  }
+  .our-history > div > h1 {
+    margin-bottom: 40px;
+  }
+  .about-our-history-text {
+    color: var(--Black-Text, #2b2b2b);
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+  }
+  .our-mission-about {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background-image: url(../images/ourmission.png);
+    width: 100%;
+    background-size: cover;
+  }
+  .our-mission-about > p {
+    color: var(--white, var(--White, #fbfbfb));
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 30;
+    line-height: 27px;
+  }
+  .about-footer-bg {
+    background-image: url(../images/Group\ 291.png);
+    background-size: cover;
+    background-position: right;
+  }
+  .about-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about-footer > h1 {
+    color: var(--Black-Text, #2b2b2b);
+    font-family: "Montserrat", sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+  }
+  .about-footer > div > p {
+    color: var(--Black-Text, #2b2b2b);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  }
 }
-.header-bg {
-  background-image: url(../images/Group\ 290.png);
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-}
-.header-content {
-  display: flex;
+@media ((min-width: 577px)and (max-width:768px)) {
+  .header {
+    background-image: url(../images/aboutHeader.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .header-bg {
+    background-image: url(../images/Group\ 290.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .header-content {
+    display: flex;
 
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 263px;
-  padding-bottom: 202px;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  .header-content > div {
+    margin: auto;
+  }
+  .header-content > div > img {
+    margin: auto;
+    width: 250px !important;
+    height: 50px !important;
+  }
+  .header-text > h2 {
+    color: "M";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 138.889% */
+    border-left: 0px solid white;
+    text-align: center;
+  }
+
+  .our-history {
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .our-history > div > img {
+    width: 100%;
+  }
+  .our-history > div > h1 {
+    margin-bottom: 40px;
+  }
+  .about-our-history-text {
+    color: var(--Black-Text, #2b2b2b);
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+  }
+  .our-mission-about {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background-image: url(../images/ourmission.png);
+    width: 100%;
+    background-size: cover;
+  }
+  .our-mission-about > p {
+    color: var(--white, var(--White, #fbfbfb));
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 30;
+    line-height: 27px;
+  }
+  .about-footer-bg {
+    background-image: url(../images/Group\ 291.png);
+    background-size: cover;
+    background-position: right;
+  }
+  .about-footer {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about-footer > h1 {
+    color: var(--Black-Text, #2b2b2b);
+    font-family: "Montserrat", sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+  }
+  .about-footer > div > p {
+    color: var(--Black-Text, #2b2b2b);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  }
 }
-.header-text {
-  color: "M";
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 50px; /* 138.889% */
-  border-left: 1px solid white;
-  padding-left: 20px;
-  margin-left: 20px;
+@media ((min-width: 769px)and (max-width:1024px)) {
+  .header {
+    background-image: url(../images/aboutHeader.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .header-bg {
+    background-image: url(../images/Group\ 290.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .header-content {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .header-content > div {
+    margin: auto;
+  }
+  .header-content > div > img {
+    margin: auto;
+    /* width: 250px !important;
+    height: 50px !important; */
+    margin-bottom: 15px;
+  }
+  .header-text > h2 {
+    color: "M";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 138.889% */
+    border-left: 0px solid white;
+    text-align: center;
+  }
+
+  .our-history {
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+  .our-history > div {
+    width: 60%;
+    margin-right: 20px;
+  }
+  .our-history > div > img {
+    width: 100%;
+  }
+  .our-history > div > h1 {
+    margin-bottom: 40px;
+  }
+  .about-our-history-text {
+    color: var(--Black-Text, #2b2b2b);
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+  }
+  .our-mission-about {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    background-image: url(../images/ourmission.png);
+    width: 100%;
+    background-size: cover;
+  }
+  .our-mission-about > p {
+    color: var(--white, var(--White, #fbfbfb));
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 30;
+    line-height: 27px;
+  }
+  .about-footer-bg {
+    background-image: url(../images/Group\ 291.png);
+    background-size: cover;
+    background-position: right;
+  }
+  .about-footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+  .about-footer > h1 {
+    color: var(--Black-Text, #2b2b2b);
+    font-family: "Montserrat", sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+  }
+  .about-footer > div > p {
+    color: var(--Black-Text, #2b2b2b);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  }
 }
-.our-history {
-  padding-top: 133px;
-  margin-left: 250px;
-  margin-right: 250px;
-  padding-bottom: 202px;
-  display: flex;
-  justify-content: space-between;
+@media ((min-width: 1025px)and (max-width:1199px)) {
+  .header {
+    background-image: url(../images/aboutHeader.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .header-bg {
+    background-image: url(../images/Group\ 290.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .header-content {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .header-content > div {
+    margin: auto;
+  }
+  .header-content > div > img {
+    margin: auto;
+    /* width: 250px !important;
+    height: 50px !important; */
+    margin-bottom: 15px;
+  }
+  .header-text > h2 {
+    color: "M";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 138.889% */
+    border-left: 0px solid white;
+    text-align: center;
+  }
+
+  .our-history {
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+  .our-history > div {
+    width: 60%;
+    margin-right: 20px;
+  }
+  .our-history > div > img {
+    width: 100%;
+  }
+  .our-history > div > h1 {
+    margin-bottom: 40px;
+  }
+  .about-our-history-text {
+    color: var(--Black-Text, #2b2b2b);
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+  }
+  .our-mission-about {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    background-image: url(../images/ourmission.png);
+    width: 100%;
+    background-size: cover;
+  }
+  .our-mission-about > p {
+    color: var(--white, var(--White, #fbfbfb));
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 30;
+    line-height: 27px;
+  }
+  .about-footer-bg {
+    background-image: url(../images/Group\ 291.png);
+    background-size: cover;
+    background-position: right;
+  }
+  .about-footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+  .about-footer > h1 {
+    color: var(--Black-Text, #2b2b2b);
+    font-family: "Montserrat", sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+  }
+  .about-footer > div > p {
+    color: var(--Black-Text, #2b2b2b);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  }
 }
-.our-history > div {
-  margin-right: 91px;
-}
-.our-history > div > h1 {
-  margin-bottom: 40px;
-}
-.about-our-history-text {
-  color: var(--Black-Text, #2b2b2b);
-  width: 420px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px; /* 150% */
-}
-.our-mission {
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-top: 66px;
-  padding-bottom: 87px;
-  color: white;
-  background-image: url(../images/ourmission.png);
-  width: 100%;
-  background-size: cover;
-}
-.our-mission > p {
-  color: var(--white, var(--White, #fbfbfb));
-  font-family: "Montserrat", sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 36px;
-}
-.about-footer-bg {
-  background-image: url(../images/Group\ 291.png);
-  background-size: cover;
-  background-position: right;
-}
-.about-footer {
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-top: 203px;
-  padding-bottom: 220px;
-  display: flex;
-  justify-content: space-between;
-}
-.about-footer > h1 {
-  color: var(--Black-Text, #2b2b2b);
-  font-family: "Montserrat", sans-serif;
-  font-size: 90px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 100px;
-}
-.about-footer > div > p {
-  color: var(--Black-Text, #2b2b2b);
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 36px;
+@media (min-width: 1200px) {
+  .header {
+    background-image: url(../images/aboutHeader.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .header-bg {
+    background-image: url(../images/Group\ 290.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .header-content {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+  .header-text {
+    color: "M";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; /* 138.889% */
+    border-left: 1px solid white;
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+  .our-history {
+    padding-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .our-history > div {
+    /* margin-right: 91px; */
+  }
+  .our-history > div > h1 {
+    margin-bottom: 40px;
+  }
+  .about-our-history-text {
+    color: var(--Black-Text, #2b2b2b);
+    /* width: 420px; */
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    margin-left: 15px;
+    margin-right: 50px;
+  }
+  .our-mission-about {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    background-image: url(../images/ourmission.png);
+    width: 100%;
+    background-size: cover;
+  }
+  .our-mission-about > p {
+    color: var(--white, var(--White, #fbfbfb));
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  .about-footer-bg {
+    background-image: url(../images/Group\ 291.png);
+    background-size: cover;
+    background-position: right;
+  }
+  .about-footer {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 203px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-footer > h1 {
+    color: var(--Black-Text, #2b2b2b);
+    font-family: "Montserrat", sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+  }
+  .about-footer > div > p {
+    color: var(--Black-Text, #2b2b2b);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  }
 }

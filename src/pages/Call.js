@@ -64,7 +64,7 @@ function Call() {
                                     <input className="w-100 mt-3 p-2" type="text" name="Email" placeholder="Email" />
 
                                 </div>
-                                <div className="d-flex justify-content-end">
+                                <div className="d-flex call-button">
                                     <input className="submit-call" type="submit" value="Send Request" />
                                 </div>
                             </form>
