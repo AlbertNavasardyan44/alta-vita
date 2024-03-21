@@ -12,18 +12,18 @@ import { Carousel } from 'react-responsive-carousel';
 import altavitalogo from '../images/logo_874x672.webp'
 import altavitalogomobile from '../images/logo-392x384.webp'
 
-import smm from '../images/smm.png'
-import content from '../images/content.png'
-import search from '../images/search.png'
-import ppc from '../images/ppc.png'
-import email from '../images/email.png'
-import video from '../images/video.png'
-import animation from '../images/animation.png'
-import landing from '../images/landing.png'
-import lead from '../images/lead.png'
-import optimization from '../images/optimization.png'
-import creative from '../images/creative.png'
-import youtube from '../images/youtube.png'
+import smm from '../images/social-media-svgrepo-com.svg'
+import web from '../images/web-development-svgrepo-com (1).svg'
+import search from '../images/seo-web-business-svgrepo-com.svg'
+import ppc from '../images/pay-per-click-payment-svgrepo-com.svg'
+import content from '../images/content-security-policy-svgrepo-com.svg'
+import animation from '../images/gif-svgrepo-com.svg'
+import email from '../images/email-download-svgrepo-com.svg'
+import video from '../images/video-editing-svgrepo-com.svg'
+import userint from '../images/user-interface-svgrepo-com.svg'
+import grapdesign from '../images/graphic-design-monitor-svgrepo-com.svg'
+import branding from '../images/social-media-branding-advertising-promotion-svgrepo-com.svg'
+import marketing from '../images/marketing-market-social-svgrepo-com.svg'
 // import ComingSoon from 'react-coming-soon'
 
 import altavita from '../images/altavita.png'
@@ -95,42 +95,61 @@ function Home() {
 
                     <div className='block'>
                         <div>
-                            <img src={search} width={'35'} height={'35'} className="rounded float-center" alt="..." />
+                            <img src={search} width={'65'} height={'65'} className="rounded float-center" alt="..." />
                             <br></br>
-                            <p> SEO</p>
+                            <p>SEO</p>
                         </div>
                         <div>
-                            <img src={content} width={'35'} height={'35'} className="rounded float-center" alt="..." />
-                            <br></br>Web Development</div>
-                        <div>
-                            <img src={smm} width={'35'} height={'35'} className="rounded float-center" alt="..." />
+                            <img src={web} width={'65'} height={'65'} className="rounded float-center" alt="..." />
                             <br></br>
-                            Animation
+                            <p>Web Development</p>
                         </div>
-                        <div> <img src={ppc} width={'35'} height={'35'} className="rounded float-center" alt="..." />
-                            <br></br>SMM</div>
-                    </div>
-                    <div className='block'>
-                        <div><img src={email} width={'35'} height={'35'} className="rounded float-center" alt="..." />
-                            <br></br>Content Creation</div>
                         <div>
-                            <img src={video} width={'35'} height={'35'} className="rounded float-center" alt="..." />
+                            <img src={animation} width={'65'} height={'65'} className="rounded float-center" alt="..." />
                             <br></br>
-                            PPC</div>
-                        <div><img src={animation} width={'35'} height={'35'} className="rounded float-center" alt="..." />
-                            <br></br>Email Marketing</div>
-                        <div><img src={landing} width={'35'} height={'35'} className="rounded float-center" alt="..." />
-                            <br></br> Video Production</div>
+                            <p>Animation</p>
+                        </div>
+                        <div> <img src={smm} width={'65'} height={'65'} className="rounded float-center" alt="..." />
+                            <br></br>
+                            <p>SMM</p>
+                        </div>
                     </div>
                     <div className='block'>
-                        <div><img src={lead} width={'35'} height={'35'} className="rounded float-center" alt="..." />
-                            <br></br>UI/UX</div>
-                        <div><img src={optimization} width={'35'} height={'35'} className="rounded float-center" alt="..." />
-                            <br></br>Graphic Design</div>
-                        <div><img src={creative} width={'35'} height={'35'} className="rounded float-center" alt="..." />
-                            <br></br> Branding</div>
-                        <div><img src={youtube} width={'35'} height={'35'} className="rounded float-center" alt="..." />
-                            <br></br>Affiliate Marketing</div>
+                        <div><img src={content} width={'65'} height={'65'} className="rounded float-center" alt="..." />
+                            <br></br>
+                            <p>Content Creation</p>
+                        </div>
+                        <div>
+                            <img src={ppc} width={'65'} height={'65'} className="rounded float-center" alt="..." />
+                            <br></br>
+                            <p>PPC</p>
+                        </div>
+                        <div><img src={email} width={'65'} height={'65'} className="rounded float-center" alt="..." />
+                            <br></br>
+                            <p>Email Marketing</p>
+                        </div>
+                        <div><img src={video} width={'65'} height={'65'} className="rounded float-center" alt="..." />
+                            <br></br>
+                            <p>Video Production</p>
+                        </div>
+                    </div>
+                    <div className='block'>
+                        <div><img src={userint} width={'65'} height={'65'} className="rounded float-center" alt="..." />
+                            <br></br>
+                            <p>UI/UX</p>
+                        </div>
+                        <div><img src={grapdesign} width={'65'} height={'65'} className="rounded float-center" alt="..." />
+                            <br></br>
+                            <p>Graphic Design</p>
+                        </div>
+                        <div><img src={branding} width={'65'} height={'65'} className="rounded float-center" alt="..." />
+                            <br></br>
+                            <p> Branding</p>
+                        </div>
+                        <div><img src={marketing} width={'65'} height={'65'} className="rounded float-center" alt="..." />
+                            <br></br>
+                            <p>Affiliate Marketing</p>
+                        </div>
                     </div>
                 </div>
             </div>

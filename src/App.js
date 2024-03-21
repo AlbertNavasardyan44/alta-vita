@@ -24,7 +24,7 @@ function App() {
 
       <Routes>
         {/* <Route path='/Home' element={<Home />} /> */}
-        <Route path='/home' element={<Home />} />
+        {/* <Route path='/' element={<Home />} /> */}
 
         <Route path='/aboutus' element={<Aboutus />} />
         <Route path='/whatwedo' element={<Whatwedo />} />
@@ -33,9 +33,9 @@ function App() {
         <Route path='/services1' element={<Services />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/call' element={<Call />} />
-        <Route  path="/" element={<Home />}/>
+        <Route path="/" element={<Home />} />
 
-       
+
 
 
 
@@ -45,7 +45,7 @@ function App() {
         </Route>
       </Routes>
     </Router>
-    
+
     // </div>
   );
 }

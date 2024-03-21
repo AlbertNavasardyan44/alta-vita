@@ -2,7 +2,7 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "../components/Navbar/Navbar.js";
 import Contact from "../contactComponent/contact.js";
-import Slider from "../components/slider/slider.js";
+import Slider from "../components/serviceSlider/sliderService.js";
 
 import altavita from '../images/altavita.png'
 import ourhistoryimg from '../images/ourhistory.png'
@@ -28,7 +28,7 @@ function MainServices() {
                 <h1>Our Services</h1>
             </div>
 
-            <div>
+            <div className='slider'>
 
 
                 <Slider />

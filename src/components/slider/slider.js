@@ -12,6 +12,7 @@ function DarkVariantExample() {
     const settings = {
         dots: false,
         Infinite: true,
+        arrows:false,
         // speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
